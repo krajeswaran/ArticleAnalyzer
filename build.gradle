@@ -1,0 +1,17 @@
+apply plugin: 'application'
+mainClassName = "com.sahaj.wikiproblem.Harness"
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile 'com.google.guava:guava:18.0'
+}
